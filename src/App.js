@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 function App() {
   const [counter, setCounter] = useState(0);
 
+  // this runs only on `counter` State Updatte
+  // Be aware of [counter] dependency
   useEffect(() => {
     console.log(counter)
   }, [counter]);
