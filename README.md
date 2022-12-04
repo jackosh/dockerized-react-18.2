@@ -1,3 +1,21 @@
+# Dockerize React-App
+
+Run buid script
+
+```bash
+$ docker-compose build
+```
+
+Run
+
+```bash
+$ docker-compose up
+```
+Access your app 
+
+[http://localhost:3001/](http://localhost:3001/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
