@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
-    const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    console.log(counter)
+  }, [counter]);
+
   return (
     <div className="App">
       <header className="App-header">
